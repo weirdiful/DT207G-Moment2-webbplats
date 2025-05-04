@@ -1,0 +1,33 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #c7f9cc;
+  }
+
+  header {
+    background: #22577A;
+    padding: 30px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #DEF7E9;
+    font-weight: bold;
+    font-size: 1.7rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  

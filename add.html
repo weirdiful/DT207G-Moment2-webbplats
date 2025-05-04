@@ -8,8 +8,26 @@
 </head>
 <body>
 
-    <h2> CV </h2>
-    <ul id="work-list"></ul>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">STARTSIDA</a></li>
+        <li><a href="add.html">CV</a></li>
+        <li><a href="about.html">OM</a></li>
+      </ul>
+    </nav>
+  </header>
+   
+    <h1>Lägg till ny arbetserfarenhet</h1>
+    <form id="addForm">
+      <input type="text" id="companyname" placeholder="Företagsnamn" required><br>
+      <input type="text" id="jobtitle" placeholder="Jobbtitel" required><br>
+      <input type="text" id="location" placeholder="Plats" required><br>
+      <input type="date" id="startdate" placeholder="Startdatum" required><br>
+      <input type="date" id="enddate" placeholder="Slutdatum" required><br>
+      <textarea id="description" placeholder="Beskrivning"></textarea><br>
+      <button type="submit">Lägg till</button>
+    </form>
     
     <script src="js/main.js"></script>
 </body>
